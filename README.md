@@ -3,7 +3,7 @@ https://github.com/nestjs/nest/issues/1098
 
 ## 궁금했던 것
 [HttpModule](https://github.com/nestjs/axios/blob/e5bdd20f6b19085477270de1aa73b1b5722da30c/lib/http.module.ts#L35-L38)에서 
-```typescipt
+```javascript
 {
   provide: HTTP_MODULE_ID,
   useValue: randomStringGenerator(),
